@@ -1,0 +1,38 @@
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+
+# General
+.DS_Store
+.env
+.env.local
+.env.*.local
+*.log
+tmp/
+
+# App Specific (Ignore generated audio/images)
+*.mp3
+*.jpg
+*.jpeg
+*.png
+!appicon.png
+!Audify/Assets.xcassets/**
+
+# Ignore the credentials for security
+google-credentials.json
+Audify/google-credentials.json
