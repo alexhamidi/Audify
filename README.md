@@ -1,14 +1,10 @@
-# Audify - PDF to High-Quality Audio
+# Audify - PDF to Audiobook
+
+
+https://github.com/user-attachments/assets/4928f2cd-3c8a-4d10-b754-2567f3425cf7
+
 
 Audify is a SwiftUI application designed to convert PDF books into high-quality, professional-grade audiobooks using Google's Text-to-Speech (TTS) Chirp 3 HD voices. It also features a built-in Exa search to find and import PDF books directly from the web.
-
-## Features
-
-- **High-Quality TTS**: Uses Google Cloud's most advanced English voices (Chirp 3 HD).
-- **In-App Search**: Search and preview PDFs from the web via Exa AI.
-- **Auto Metadata**: Uses OpenRouter AI to extract title and author from imported PDFs.
-- **Audio Player**: Advanced player with playback speed controls (0.5x - 2.5x), background playback support, and PDF viewing toggle.
-- **Clean UI**: A minimal, professional black-and-white interface with grid-based library views.
 
 ## Setup Instructions
 
@@ -55,13 +51,3 @@ To use the high-quality Chirp 3 HD voices, the app requires a `google-credential
 - **Preview Failed (hostname not found)**: Some websites hosting PDFs may be blocked or unreachable in the simulator. Use the "Open in Safari" button to verify the link.
 - **TTS Errors**: Ensure your Google Cloud Project has the **Text-to-Speech API** enabled and that your ADC credentials have the correct billing project/permissions.
 
-## Tech Stack
-
-- **UI**: SwiftUI
-- **Database**: SwiftData
-- **Audio**: AVFoundation
-- **PDF**: PDFKit
-- **APIs**: Google Cloud TTS (Chirp 3), Exa AI, OpenRouter (Arcee Trinity)
-
----
-*Created by alexhamidi*
